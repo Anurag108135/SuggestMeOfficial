@@ -7,6 +7,9 @@ namespace SuggestMeWebApp.Controllers
     public class WeatherForecastController : ControllerBase
     {
         public WeatherForecastController() { }
+
+        private void getForecast{ get; set; }
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
