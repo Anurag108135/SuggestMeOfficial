@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {}
+    "C:\\Users\\Public\\Ajeet\\SuggestME\\SuggestMeOfficial\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {
+    "C:\\Users\\Public\\Ajeet\\SuggestME\\SuggestMeOfficial\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Ajeet\\SuggestME\\SuggestMeOfficial\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
         "projectName": "SuggestMeWebApp",
-        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\obj\\",
+        "projectPath": "C:\\Users\\Public\\Ajeet\\SuggestME\\SuggestMeOfficial\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\Ajeet\\SuggestME\\SuggestMeOfficial\\SuggestMeWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +43,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -66,6 +67,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
