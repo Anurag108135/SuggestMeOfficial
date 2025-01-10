@@ -8,7 +8,10 @@ namespace SuggestMeWebApp.Controllers
     {
         public WeatherForecastController() { }
 
-        private void getForecast{ get; set; }
+        public void casrt()
+        {
+
+        }
 
         private static readonly string[] Summaries = new[]
         {
