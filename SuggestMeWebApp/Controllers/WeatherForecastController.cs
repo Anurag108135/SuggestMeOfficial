@@ -13,6 +13,7 @@ namespace SuggestMeWebApp.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
+        public AcceptedResult WeatherForecasts { get; set; }
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
