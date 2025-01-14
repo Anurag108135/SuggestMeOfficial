@@ -4,14 +4,14 @@
     "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {
+    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\SuggestMe.Bal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
-        "projectName": "SuggestMeWebApp",
-        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
+        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\SuggestMe.Bal.csproj",
+        "projectName": "SuggestMe.Bal",
+        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\SuggestMe.Bal.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\obj\\",
+        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,7 +49,284 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\SuggestMe.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\SuggestMe.Common.csproj",
+        "projectName": "SuggestMe.Common",
+        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\SuggestMe.Common.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\Suggestme.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\Suggestme.Dal.csproj",
+        "projectName": "Suggestme.Dal",
+        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\Suggestme.Dal.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\SuggestMe.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\SuggestMe.Model.csproj",
+        "projectName": "SuggestMe.Model",
+        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\SuggestMe.Model.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
+        "projectName": "SuggestMeWebApp",
+        "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\SuggestMeWebApp.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMeWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\SuggestMe.Bal.csproj": {
+                "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Bal\\SuggestMe.Bal.csproj"
+              },
+              "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\SuggestMe.Common.csproj": {
+                "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Common\\SuggestMe.Common.csproj"
+              },
+              "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\Suggestme.Dal.csproj": {
+                "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\Suggestme.Dal\\Suggestme.Dal.csproj"
+              },
+              "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\SuggestMe.Model.csproj": {
+                "projectPath": "D:\\Seggestmee\\src\\SuggestMeWebApp\\SuggestMe.Model\\SuggestMe.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

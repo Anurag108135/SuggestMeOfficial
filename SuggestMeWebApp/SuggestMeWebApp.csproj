@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SuggestMe.Bal\SuggestMe.Bal.csproj" />
+    <ProjectReference Include="..\SuggestMe.Common\SuggestMe.Common.csproj" />
+    <ProjectReference Include="..\Suggestme.Dal\Suggestme.Dal.csproj" />
+    <ProjectReference Include="..\SuggestMe.Model\SuggestMe.Model.csproj" />
   </ItemGroup>
 
 </Project>
